@@ -16,11 +16,9 @@
 # Clear the existing R workspace so this lesson starts from known objects.
 rm(list = ls())
 
-# Before running this script, set your working directory to the folder where you downloaded the workshop files.
-# The working directory should contain ATL_STI_workshop_script.R, IRC_network_data/, and country_covariate_data/.
-# Example:
+# Before running this script, set your working directory to the folder where you downloaded the workshop files. The working directory should contain ATL_STI_workshop_script.R, IRC_network_data/, and country_covariate_data/. mac Option + Command + C copies the folder path
+
 # setwd("path/to/ATL_ST_Academy_Workshop")
-# mac Option + Command + C copies the folder path
 
 # Load dplyr for readable data manipulation verbs such as select, mutate, and left_join.
 library(dplyr)
