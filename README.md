@@ -42,3 +42,7 @@ python3 python_scripts/harmonize_country_matrices.py ai_country_clean --output-d
 ```
 
 The file `python_scripts/country_crosswalk.csv` is not run directly, but is required by step 3. It standardizes country names into ISO3 country codes. Each script creates the input needed by the next script.
+
+# Acknowledgements
+
+ChatGPT 5.5 was used via Codex for Python and R scripting support. 
